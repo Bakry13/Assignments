@@ -6,7 +6,7 @@ public class Assignment5 {
 		int hight = 5; int length = 5;
 		for(int i=-hight; i<=hight; i++)
 		{
-			for(int j = 0; j<=length; j++)
+			for(int j = -length; j<=length; j++)
 			{
 				if(i*i == j*j)
 					System.out.print("*");
